@@ -33,11 +33,11 @@ sections:
 - type: document
   path: content/contact/_index.md
   label: Contact
+- type: heading
+  label: Future
 - type: document
   path: config.toml
   label: Configuration
-- type: heading
-  label: Future
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
