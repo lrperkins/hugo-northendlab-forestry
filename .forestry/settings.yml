@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Past
 - type: directory
   path: content
   label: Post
@@ -19,6 +21,8 @@ sections:
   new_doc_ext: yml
   templates:
   - tools
+- type: heading
+  label: Present
 - type: directory
   path: content/author
   label: Author
@@ -32,6 +36,8 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
+- type: heading
+  label: Future
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
